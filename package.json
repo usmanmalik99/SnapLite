@@ -1,0 +1,48 @@
+{
+  "name": "snaplite",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start -c",
+    "android": "node ./node_modules/expo/bin/cli.js start --android",
+    "ios": "node ./node_modules/expo/bin/cli.js start --ios",
+    "web": "node ./node_modules/expo/bin/cli.js start --web"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.12.0",
+    "@react-navigation/native": "^7.1.28",
+    "@react-navigation/native-stack": "^7.10.1",
+    "bcryptjs": "^3.0.3",
+    "dayjs": "^1.11.19",
+    "expo": "~54.0.32",
+    "expo-av": "~16.0.8",
+    "expo-camera": "~17.0.10",
+    "expo-image-picker": "~17.0.10",
+    "expo-location": "~19.0.8",
+    "expo-media-library": "~18.2.1",
+    "expo-notifications": "~0.32.16",
+    "expo-screen-capture": "~8.0.9",
+    "expo-secure-store": "~15.0.8",
+    "expo-status-bar": "~3.0.9",
+    "nativewind": "^4.2.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-css-interop": "^0.2.1",
+    "react-native-maps": "1.20.1",
+    "react-native-paper": "^5.14.5",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-vector-icons": "^10.3.0",
+    "react-native-web": "^0.21.0",
+    "uuid": "^13.0.0",
+    "expo-document-picker": "~14.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
